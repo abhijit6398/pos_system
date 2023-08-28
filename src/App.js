@@ -1,12 +1,11 @@
-import './App.css';
+import React, { Fragment } from "react";
+import Main from "./components/MainDashboard";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>Hello</p>
-      </header>
-    </div>
+    <Fragment>
+      <Main />
+    </Fragment>
   );
 }
 
